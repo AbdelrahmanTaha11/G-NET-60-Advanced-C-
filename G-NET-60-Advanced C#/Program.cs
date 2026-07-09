@@ -154,7 +154,7 @@ internal class Program
 
         #region Question10
 
-    //Q10: What is the interface constraint? Write an example.
+        //Q10: What is the interface constraint? Write an example.
 
         // The interface constraint specifies that the type argument must implement a particular interface.
 
@@ -175,6 +175,27 @@ internal class Program
 
         #endregion
 
+
+        #region Question11
+
+        //Q11: What is the base class constraint? Write an example.
+
+        // The base class constraint specifies that the type argument must be or derive from a particular base class.
+
+        //public class BaseEntity
+        //{
+        //    public int Id { get; set; }
+        //}
+
+        //public class Repository<T> where T : BaseEntity
+        //{
+        //    private List<T> items = new List<T>();
+        //    public void Add(T item) => items.Add(item);
+        //    public T Get(int id) => items.FirstOrDefault(item => item.Id == id);
+        //    public void Remove(T item) => items.Remove(item);
+        //}
+
+        #endregion
 
 
     }
