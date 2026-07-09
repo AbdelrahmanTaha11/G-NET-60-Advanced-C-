@@ -308,21 +308,32 @@ internal class Program
         // For example, Generic<int> and Generic<string>
         // have separate static fields.
 
-            //public class GenericCounter<T>
-            //    {
-            //        public static int Count;
+        //public class GenericCounter<T>
+        //    {
+        //        public static int Count;
 
-            //        public GenericCounter()
-            //        {
-            //            Count++;
-            //        }
-            //    }
+        //        public GenericCounter()
+        //        {
+        //            Count++;
+        //        }
+        //    }
 
 
 
 
         #endregion
 
+        #region Question19
 
-}
+        //Q19: How can you inherit from a generic class?
+
+        // You can inherit from a generic class by specifying the type parameter(s) in the derived class.
+
+
+        #endregion
+
+
+
+
+    }
 }
