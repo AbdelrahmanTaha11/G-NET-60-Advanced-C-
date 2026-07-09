@@ -206,15 +206,32 @@ internal class Program
         // Constraints are separated by commas     
 
 
-    //    public class Repository<T> where T : class, IComparable<T> , new()
-    //{
-    //    public T Create()
-    //    {
-    //        return new T();
-    //    }
-    //}
+        //    public class Repository<T> where T : class, IComparable<T> , new()
+        //{
+        //    public T Create()
+        //    {
+        //        return new T();
+        //    }
+        //}
 
 
+
+        #endregion
+
+        #region Question13
+
+        //Q13: What does the 'default' keyword do in generics?
+
+        // Q13: What does the 'default' keyword do in generics?
+
+        // The 'default' keyword returns the default value of a generic type.
+        // For value types: 0, false, '\0', etc.
+        // For reference types: null.
+
+            //public static T GetDefault<T>()
+            //    {
+            //        return default;
+            //    }
 
         #endregion
 
