@@ -88,10 +88,27 @@ internal class Program
         //     }
 
 
-   
+
+        #endregion
+
+        #region Question06
+
+        //Q6: What is a generic interface? Write IRepository<T>. 
+
+        // A generic interface is an interface that works with different data types
+        // by using a type parameter (such as <T>) instead of a fixed type.
+
+        //public interface IRepository<T>
+        //{
+        //    void Add(T item);
+        //    T Get(int id);
+        //    void Remove(T item);
+        //}
+
+
         #endregion
 
 
 
-}
+    }
 }
