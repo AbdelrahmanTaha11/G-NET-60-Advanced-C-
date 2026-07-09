@@ -1,4 +1,6 @@
-﻿namespace G_NET_60_Advanced_C_;
+﻿using System.Threading.Channels;
+
+namespace G_NET_60_Advanced_C_;
 
 internal class Program
 {
@@ -62,18 +64,31 @@ internal class Program
         #region Question04
         //Q4: What is a generic method? Write Swap<T> method.
 
-       
+
 
         // A generic method is a method that works with different data types
         // by using a type parameter (such as <T>) instead of a fixed type.
 
-            //public static void Swap<T>(ref T first, ref T second)
-            //    {
-            //        T temp = first;
-            //        first = second;
-            //        second = temp;
-            //    }
+        //public static void Swap<T>(ref T first, ref T second)
+        //    {
+        //        T temp = first;
+        //        first = second;
+        //        second = temp;
+        //    }
 
+        #endregion
+
+        #region Question05
+
+        //Q5: Write a generic method FindMax<T> that finds maximum value
+        //
+        //public static T FindMax<T>(T first, T second) where T : IComparable<T>
+        //     {
+        //return first.CompareTo(second) > 0 ? first : second;
+        //     }
+
+
+   
         #endregion
 
 
