@@ -197,6 +197,26 @@ internal class Program
 
         #endregion
 
+        #region Question12
 
-    }
+        //Q12: How do you apply multiple constraints? Write an example. 
+
+        // Multiple constraints allow a generic type to satisfy
+        // more than one condition at the same time.
+        // Constraints are separated by commas     
+
+
+    //    public class Repository<T> where T : class, IComparable<T> , new()
+    //{
+    //    public T Create()
+    //    {
+    //        return new T();
+    //    }
+    //}
+
+
+
+        #endregion
+
+}
 }
