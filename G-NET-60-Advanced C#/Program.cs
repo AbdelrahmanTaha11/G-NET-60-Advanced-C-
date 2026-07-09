@@ -339,6 +339,31 @@ internal class Program
 
         #endregion
 
+        Cache<int, string> cache = new Cache<int, string>();
 
-    }
+        // Add items
+        cache.Add(1, "Abdelrahman", TimeSpan.FromSeconds(5));
+        cache.Add(2, "Ahmed", TimeSpan.FromSeconds(10));
+
+        // Get item
+        Console.WriteLine(cache.Get(1)); // Abdelrahman
+
+        // Contains
+        Console.WriteLine(cache.Contains(1)); // True
+
+        // Remove
+        cache.Remove(2);
+        Console.WriteLine(cache.Contains(2)); // False
+
+        // Wait until item expires
+        Console.WriteLine("Waiting for expiration...");
+        Thread.Sleep(6000);
+
+        // Try to get expired item
+        Console.WriteLine(cache.Contains(1)); // False
+        Console.WriteLine(cache.Get(1));      // null (default for string)
+    
+
+
+}
 }
