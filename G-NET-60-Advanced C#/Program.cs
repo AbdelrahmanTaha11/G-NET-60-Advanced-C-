@@ -278,7 +278,7 @@ internal class Program
         //Q16: What is contravariance? Explain the 'in' keyword.
 
 
-       
+
         // Contravariance allows using a base type
         // where a more derived type is expected.
 
@@ -293,6 +293,12 @@ internal class Program
 
         #endregion
 
+        #region Question17
+        //Q17: What is the difference between covariance and contravariance?
+        // Covariance allows a method to return a more derived type than originally specified.
+        // Contravariance allows a method to accept parameters of a less derived type than originally specified.
+        #endregion
 
-}
+
+    }
 }
