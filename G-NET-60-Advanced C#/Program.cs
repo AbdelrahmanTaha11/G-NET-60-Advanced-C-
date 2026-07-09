@@ -299,6 +299,30 @@ internal class Program
         // Contravariance allows a method to accept parameters of a less derived type than originally specified.
         #endregion
 
+        #region Question18
 
-    }
+        //Q18: How do static members work in generic types?
+
+
+        // Each closed generic type has its own copy of static members.
+        // For example, Generic<int> and Generic<string>
+        // have separate static fields.
+
+            //public class GenericCounter<T>
+            //    {
+            //        public static int Count;
+
+            //        public GenericCounter()
+            //        {
+            //            Count++;
+            //        }
+            //    }
+
+
+
+
+        #endregion
+
+
+}
 }
