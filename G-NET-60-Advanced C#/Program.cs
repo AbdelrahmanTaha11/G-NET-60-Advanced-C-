@@ -30,10 +30,36 @@ internal class Program
         //intContainer.Add(42);
         //Console.WriteLine(intContainer.Get());
 
-        
+
 
 
         #endregion
 
-    }
+        #region Question03
+
+        //Q3:What are multiple type parameters? Write Pair<TKey, TValue>
+        // Q3: What are multiple type parameters?
+
+        // Multiple type parameters allow a generic class or method
+        // to work with more than one data type at the same time.
+        // Example: <TKey, TValue>
+
+            //public class Pair<TKey, TValue>
+            //{
+            //    public TKey Key { get; set; }
+            //    public TValue Value { get; set; }
+
+            //    public Pair(TKey key, TValue value)
+            //    {
+            //        Key = key;
+            //        Value = value;
+            //    }
+            //}
+
+
+        #endregion
+
+
+
+}
 }
