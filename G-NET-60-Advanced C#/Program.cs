@@ -121,6 +121,20 @@ internal class Program
 
         #endregion
 
+        #region Question08
+        //Q8: What is the 'class' constraint? Write an example.
+
+        // The 'class' constraint specifies that the type argument must be a reference type (class).
+        
+        //public class ReferenceContainer<T> where T : class
+        //{
+        //    private T value;
+        //    public void SetValue(T value) => this.value = value;
+        //    public T GetValue() => value;
+        //}
+
+        #endregion
+
 
 
     }
