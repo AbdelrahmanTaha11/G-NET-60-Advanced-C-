@@ -44,18 +44,35 @@ internal class Program
         // to work with more than one data type at the same time.
         // Example: <TKey, TValue>
 
-            //public class Pair<TKey, TValue>
-            //{
-            //    public TKey Key { get; set; }
-            //    public TValue Value { get; set; }
+        //public class Pair<TKey, TValue>
+        //{
+        //    public TKey Key { get; set; }
+        //    public TValue Value { get; set; }
 
-            //    public Pair(TKey key, TValue value)
+        //    public Pair(TKey key, TValue value)
+        //    {
+        //        Key = key;
+        //        Value = value;
+        //    }
+        //}
+
+
+        #endregion
+
+        #region Question04
+        //Q4: What is a generic method? Write Swap<T> method.
+
+       
+
+        // A generic method is a method that works with different data types
+        // by using a type parameter (such as <T>) instead of a fixed type.
+
+            //public static void Swap<T>(ref T first, ref T second)
             //    {
-            //        Key = key;
-            //        Value = value;
+            //        T temp = first;
+            //        first = second;
+            //        second = temp;
             //    }
-            //}
-
 
         #endregion
 
