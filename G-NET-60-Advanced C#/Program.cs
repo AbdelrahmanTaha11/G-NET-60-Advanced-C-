@@ -108,6 +108,19 @@ internal class Program
 
         #endregion
 
+        #region Question07
+        //Q7: What is the 'struct' constraint? Write an example.
+        // The 'struct' constraint specifies that the type argument must be a value type (struct).
+
+        //public class ValueContainer<T> where T : struct
+        //{
+        //    private T value;
+        //    public void SetValue(T value) => this.value = value;
+        //    public T GetValue() => value;
+        //}
+
+        #endregion
+
 
 
     }
