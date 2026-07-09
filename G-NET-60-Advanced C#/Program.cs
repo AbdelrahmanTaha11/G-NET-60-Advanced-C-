@@ -125,12 +125,28 @@ internal class Program
         //Q8: What is the 'class' constraint? Write an example.
 
         // The 'class' constraint specifies that the type argument must be a reference type (class).
-        
+
         //public class ReferenceContainer<T> where T : class
         //{
         //    private T value;
         //    public void SetValue(T value) => this.value = value;
         //    public T GetValue() => value;
+        //}
+
+        #endregion
+
+        #region Question09
+
+        //Q9: What is the 'new()' constraint? Write an example.
+
+        // The 'new()' constraint specifies that the type argument must have a public parameterless constructor.
+
+        //public class Factory<T> where T : new()
+        //{
+        //    public T CreateInstance()
+        //    {
+        //        return new T();
+        //    }
         //}
 
         #endregion
