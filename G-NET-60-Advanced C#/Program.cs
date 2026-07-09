@@ -255,6 +255,24 @@ internal class Program
 
         #endregion
 
+        #region Question15
 
-    }
+        //Q15: What is covariance? Explain the 'out' keyword.
+
+        // Q15: What is covariance? Explain the 'out' keyword.
+
+        // Covariance allows using a more derived type
+        // where a base type is expected.
+
+        // The 'out' keyword makes a generic type parameter covariant.
+        // It can only be used for output (return values), not input parameters.
+
+        //public interface IProducer<out T>
+        //    {
+        //        T GetItem();
+        //    }
+        #endregion
+
+
+}
 }
