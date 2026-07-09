@@ -23,5 +23,17 @@ internal class Program
 
         #endregion
 
+        #region Question02
+        //Q2: Write a generic class Container<T> with Add and Get methods.
+
+        //Container<int> intContainer = new Container<int>();
+        //intContainer.Add(42);
+        //Console.WriteLine(intContainer.Get());
+
+        
+
+
+        #endregion
+
     }
 }
