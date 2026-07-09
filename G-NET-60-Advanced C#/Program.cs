@@ -1,4 +1,5 @@
-﻿using System.Threading.Channels;
+﻿using System.ComponentModel;
+using System.Threading.Channels;
 
 namespace G_NET_60_Advanced_C_;
 
@@ -147,6 +148,29 @@ internal class Program
         //    {
         //        return new T();
         //    }
+        //}
+
+        #endregion
+
+        #region Question10
+
+    //Q10: What is the interface constraint? Write an example.
+
+        // The interface constraint specifies that the type argument must implement a particular interface.
+
+        //public interface IRepository<T>
+        //{
+        //    void Add(T item);
+        //    T Get(int id);
+        //    void Remove(T item);
+        //}
+
+        //public class Repository<T> where T : IRepository<T>
+        //{
+        //    private List<T> items = new List<T>();
+        //    public void Add(T item) => items.Add(item);
+        //    public T Get(int id) => items[id];
+        //    public void Remove(T item) => items.Remove(item);
         //}
 
         #endregion
